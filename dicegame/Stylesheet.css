@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Source+Code+Pro:wght@600&display=swap');
+#body{
+  background-color: #3B3C3C;
+  font-family: "Righteous";
+}
+#h1{
+  color: whitesmoke;
+  font-size: 64px;
+  text-align: center;
+}
+#description{
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: center;
+}
+.container {
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+  padding: 50px;
+}
+#player1{
+  float: left;
+}
+#player2{
+  float: right;
+}
+#player1dice{
+  height: 80px;
+  width: 80px;
+  background-color: #F1F4A5;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+#player2dice{
+  height: 80px;
+  width: 80px;
+  background-color: #F1F4A5;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+#rolldice{
+  border: none;
+  color: white;
+  background-color: #F3ACAC;
+  margin: 200px auto;
+  padding: 30px 40px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+#resetbutton{
+  border: none;
+  color: white;
+  background-color: #C56E6E;
+  margin: 200px auto;
+  padding: 30px 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  display: none;
+}
+.active{
+  box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarTheSpace</title>
+    <link rel = "stylesheet" href = "Stylesheet.css">
+</head>
+<body id="body">
+    <!--Logo-->
+
+   <h1 id="h1">Roll The Dice!</h1>
+   <p id="description">-A Game Of Luck!</p>
+   <!--Main Body-->
+
+   <div class="container">
+
+       <!--It Tells About Waht The Status Of The Game is-->
+
+       <h1 id="gamestatus">Player 1 Turn</h1>
+
+       <!--Players-->
+
+       <div id="players">
+
+           <!--Player1-->
+
+           <div id="player1">
+               <h1>Score</h1><span id="player1scoreboard">0</span>
+               <div id = "player1dice" class="player1 active">
+                  -
+               </div>
+
+           </div>
+           <!--Player2-->
+
+           <div id="player2">
+                <h1>Score</h1><span id="player2scoreboard">0</span>
+                <div id = "player2dice" class="player2">
+                    -
+                 </div>
+
+           </div>
+
+       </div>
+       <!--Roll Button-->
+
+       <div id="dice" class="dice">
+          <button id="rolldice">Roll Dice 🎲</button>
+          <button id="resetbutton">Reset Game 🔄</button>
+       </div>
+
+   </div>
+   </body>
+   <script src="app.js"></script>
+
+</html>
